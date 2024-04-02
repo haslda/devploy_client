@@ -1,0 +1,34 @@
+.task_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.task_dialogue_row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 36px;
+}
+
+.task_dialogue_icon {
+    padding-top: 3px;
+}
+
+.task_dialogue_label {
+    margin-left: 10px;
+    width: 70px;
+    padding-top: 4px;
+}
+
+.task_dialogue_input {
+    flex-grow: 1;
+}
+
+.task_dialogue_input_commands{
+    padding: 10px;
+    max-width: 100%;
+    width: 800px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
